@@ -9,4 +9,4 @@ Tech used:
 * CSS - Flex Box
 * Jquery
 
-Deployed on Netfify - https://jovial-minsky-10b89b.netlify.com/
+Deployed on Netlify - https://jovial-minsky-10b89b.netlify.com/
