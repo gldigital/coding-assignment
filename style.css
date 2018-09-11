@@ -1,0 +1,61 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+button:focus {
+  outline:0;
+}
+
+.page-wrapper {
+  margin: 50px 10%;
+  max-width: 980px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.container {
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin: 20px;
+}
+
+.box {
+  max-width: 230px;
+  width: 25%;
+  margin: 10px;
+  padding: 50px 50px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: lightgrey;
+}
+
+/* Individual Boxes */
+#redBox.box {
+  background-color: red;
+}
+#greenBox.box {
+  background-color: green;
+}
+#blueBox.box {
+  background-color: blue;
+}
+#whiteBox.box {
+  background-color: #fff;
+}
